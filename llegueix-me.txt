@@ -1,0 +1,15 @@
+Descripció dels fitxers usats per construir el recull de termes
+--------------------------------------------------------------
+
+Veure: http://www.softcatala.org/projectes/eines/recull/recull.htm
+
+Fitxer
+
+* generahtml.cs - conté el generador del Recull de termes. Usar mcs generahtml.cs per compilar-lo. Us cal l'enton mono
+* header.htm - el fitxer de capçalera del recull
+* tail.html - el fitxer de cua (al final)
+* recull.csv - exportació del recull en mode text (format utf8)
+
+Jordi Mas
+jmas@softcatala.org
+

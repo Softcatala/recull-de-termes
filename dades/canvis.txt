@@ -1,0 +1,189 @@
+--- recull_old.csv	2008-03-31 19:52:23.858400000 +0200
++++ recull.csv	2008-03-31 19:57:19.897400000 +0200
+@@ -19,8 +19,9 @@
+ access, to;accedir;v intr
+ account;compte;m
+ account name;nom de compte;m
++account policy;política de comptes;f
+ accrued interest;interès acumulat;m
+-acknowledgement;justificant de recepció;m
++acknowledgement;justificant de recepció || agraïments (m pl);m
+ acronym;acrònim;m
+ action;acció;f
+ activate, to;activar;v tr
+@@ -41,7 +42,9 @@
+ advert, advertisement;anunci;m
+ advertising;publicitari -ària;adj
+ advertising;publicitat;f
++advertising banner;bàner;m
+ advisor;guia;m i f
++adware;programari de publicitat;m
+ again;tornar a..., ...de nou, ...una altra vegada;loc
+ alert;(missatge d') avís || atenció (f);m
+ alert, to;avisar;v tr
+@@ -157,6 +160,7 @@
+ banner;bàner;m
+ bar;barra;f
+ bar code;codi de barres;m
++baseline;punt de referència;m
+ batch;lot;m
+ batch;massiu -iva;adj
+ batch file;fitxer de lot;m
+@@ -193,6 +197,7 @@
+ bookmarks;(llista d') adreces d'interès;f
+ Boolean;booleà -ana;adj
+ boot;arrencada;f
++boot, to;arrencar;v tr
+ bootloader;carregador de l'arrencada;m
+ border;vora, contorn (m);f
+ bottom;inferior;adj
+@@ -628,6 +633,7 @@
+ expiration;venciment;m
+ expire, to;vèncer;v intr
+ export, to;exportar;v tr
++extended partition;partició ampliada;f
+ extension;extensió;f
+ extract, to;extreure;v tr
+ extraction;extracció;f
+@@ -755,8 +761,8 @@
+ help topics;temes de l'ajuda;m pl
+ helper, helper application;aplicació d'ajuda;f
+ hertz;hertz (sbl. MHz);m
+-hidden;amagat -ada, ocult -a;adj
+-hide, to;amagar, ocultar;v tr
++hidden;ocult -a;adj
++hide, to;ocultar;v tr
+ hierarchy;jerarquia;f
+ high;alt -a;adj
+ high level language;llenguatge d'alt nivell;m
+@@ -796,7 +802,7 @@
+ image;imatge;f
+ image ad;anunci gràfic;m
+ image bank;banc d'imatges;m
+-image map;mapa de la imatge;m
++image map;mapa d'imatge;m
+ implement, to;implementar;v tr
+ implementation;implementació;f
+ import, to;importar;v tr
+@@ -857,6 +863,7 @@
+ Internet address;adreça d'Internet;f
+ Internet service provider;proveïdor d'Internet;m
+ interpreted language;llenguatge interpretat;m
++interstitial ad(vertisement);anunci intersticial;m
+ intranet;intranet;f
+ Intro, intro key;tecla de retorn;f
+ invalid;no vàlid -a;adj
+@@ -942,11 +949,12 @@
+ locking;bloqueig, blocatge;m
+ log;registre;m
+ log file;fitxer de registre;m
+-log in, to;entrar, connectar(-se), iniciar la sessió;v intr
++log in, to;entrar, connectar(-se), iniciar una sessió;v intr
+ log off, to;sortir, desconnectar(-se), finalitzar la sessió;v intr
+-log on, to;entrar, connectar(-se), iniciar la sessió;v intr
++log on, to;entrar, connectar(-se), iniciar una sessió;v intr
+ log out, to;sortir, desconnectar(-se), finalitzar la sessió;v intr
+ log, to;registrar;v tr
++logical partition;partició lògica;f
+ login;dades d'entrada || entrada (f), connexió (f), inici de sessió (m);f pl
+ login script;script d'inici de sessió    [ l'script ];m
+ login, to;entrar, connectar(-se), iniciar la sessió;v intr
+@@ -985,6 +993,7 @@
+ manager;gestor -a;m i f
+ map;mapa;m
+ map, to;mapar, fer mapes (v intr);v tr
++mapped image;imatge mapada;f
+ mapping;mapatge || cartografia (f);m
+ margin;marge;m
+ mark;marca;f
+@@ -1109,6 +1118,7 @@
+ outgoing message;missatge de sortida;m
+ outline;contorn;m
+ output;sortida;f
++output, to;donar com a resultat || imprimir;v tr
+ output device;perifèric de sortida;m
+ overflow;desbordament;m
+ overline;sobreratllat;m
+@@ -1130,7 +1140,7 @@
+ pair;parella;f
+ palette;paleta;f
+ pane;subfinestra;f
+-panel;quadre, tauler;m
++panel;quadre, tauler, plafó;m
+ paper jam;embús;m
+ par;paritat;f
+ paragraph;paràgraf;m
+@@ -1141,6 +1151,7 @@
+ parse, to;analitzar;v tr
+ partition;partició;f
+ partition, to;partir, fer particions (a un disc);v tr
++partitioner;creador de particions, partidor;m
+ passphrase;contrasenya;f
+ password;contrasenya;f
+ paste, to;enganxar;v tr
+@@ -1212,7 +1223,7 @@
+ post;article, missatge, escrit, entrada (f);m
+ post, to;enviar, publicar;v tr
+ postmaster;administrador -a de correu;m i f
+-powered by;impulsat -da per;loc
++powered by;funciona amb, basat en;loc
+ prefer, to;preferir;v tr
+ preferences;preferències;f pl
+ preferred;preferit -ida;adj
+@@ -1305,7 +1316,7 @@
+ recognition;reconeixement;m
+ reconfigured;reconfigurat -ada;adj
+ reconnect, to;tornar a connectar;v tr
+-record;registre;m
++record;registre || enregistrament;m
+ record, to;enregistrar;v tr
+ recorder;gravadora, enregistrador (m);f
+ recover, to;restablir;v tr
+@@ -1326,7 +1337,7 @@
+ reformat, to;reformatar;v tr
+ reformatting;reformatació;f
+ refresh rate;velocitat de refresc;f
+-refresh, to;refrescar;v tr
++refresh, to;refrescar, actualitzar;v tr
+ refreshing;refrescament;m
+ refuse, to;rebutjar;v tr
+ refused;rebutjat -ada;adj
+@@ -1373,6 +1384,7 @@
+ resident program;programa resident;m
+ resize, to;redimensionar, canviar la mida (loc);v tr
+ resolution;resolució;f
++resolver;sistema de resolució;m
+ resource;recurs;m
+ respawn, to;tornar a engendrar;v tr
+ response;resposta;f
+@@ -1457,6 +1469,7 @@
+ secure-HTTP;HTTP segur;m
+ securely;de manera segura;adv
+ security;seguretat || títol (financer) (m);f
++security breach;forat de seguretat;m
+ seek;cerca;f
+ seek bar;barra de cerques;f
+ seek, to;cercar;v tr
+@@ -1492,11 +1505,14 @@
+ shuffle;mescla;f
+ shutdown;aturada;f
+ sidebar;barra lateral;f
++sign in, to;entrar, connectar(-se), iniciar una sessió;v intr
++sign up, to;registrar-se;v intr
+ signal;senyal;m
+ signature;signatura;f
+ signed;signat -ada;adj
+ signer;signant;m i f
+ signing key;clau de signatura;f
++signup;(procés de) registre;m
+ simulate, to;simular;v tr
+ simulation;simulació;f
+ simulator;simulador;m
+@@ -1610,6 +1626,7 @@
+ summary;resum;m
+ superscript;superíndex;m
+ superuser;superusuari;m
++support;assistència || compatibilitat, admissió;f
+ support, to;permetre l'ús de, ser compatible amb, admetre, funcionar amb...;loc
+ suspicious;sospitós -osa;adj
+ swap;intercanvi;m
